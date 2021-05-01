@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.fixd-width{
+width: 1270px;
+margin: auto;
+}
+/* menu-start */
+.menu{
+    background: #548fd1;
+}
+.logo{
+    float: left;
+    color: #fff;
+    margin-left: 85px;
+    line-height: 65px;
+}
+.menu1 ul{
+    text-align: right;
+}
+.menu1 ul li{
+    display: inline-block;
+    margin-left: -5px;
+    position: relative;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    display:inline-block;
+   padding: 0px 20px;
+   line-height: 65px;
+   transition: .5s;
+   font-size: 13px;
+}
+.menu1 ul li a:hover{
+    background: #0557b4;
+}
+/* dropdown-menu */
+.menu1 ul li ul{
+    position: absolute;
+    
+}
+.menu1 ul li ul li{
+    display: inline-block;
+    background: #548fd1;
+    width:100%;
+   
+}
+.menu1 ul li ul li a{
+    padding: 30px;
+    line-height: 10px;
+    display: block;
+    
+    
+}
+.menu1 ul li ul{
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: .5s;
+    transform-origin: top;
+}
+.menu1 ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+
+/* menu-end */
+/* start-banner */
+.bannar{
+    background-image: url(./img/Screenshot_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+.bannar h1{
+    color: #0dbf9b;
+    margin-bottom: 25px;
+    font-size: 45px;
+}
+.bannar h4{
+    color: #63afa0;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.bannar h3{
+    color:#54ad9b ;
+    margin-top: 40px;
+    border: 2px solid #54ad9b;
+    width: 150px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 5px;
+}
+/* end-bannar */
+/* start-service */
+.service{
+    padding: 70px;
+    color: #5adbc1;
+}
+.service p{
+    margin-top: 20px;
+    color: #87d4c5;
+}
+.service2{
+    padding: 65px 15px;
+}
+.service2 i{
+    color: #0dbf9b;
+    font-size: 40px;
+
+}
+.service2 h2{
+    margin: 15px 0px
+    ;
+}
+.service2 .div1{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.service2 .div2{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.service2 .div3{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.service2 .div4{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* end service */
+/* start-about */
+.about{
+    padding: 70px;
+    border-top: 2px solid #0dbf9b;
+}
+.about h1{
+    padding: 25px;
+    color: #555555;
+}
+.about p{
+    color: #7b7b8a;
+}
+.tab .tab1{
+    float: left;
+    width: 40%;
+}
+.tab .tab1 img{
+    width: 450px;
+    height: auto;
+    margin-left: 50px;
+}
+.tab .tab2 p{
+    color: #7e7676;
+    
+}
+.tab .tab2 h2{
+    padding: 12px;
+    color: #666666;
+}
+/* end-about */
+/* start-contact */
+.contact{
+    background: #f6f6f6;
+    padding: 40px 40px;
+    height: 255px;
+}
+.contact h2{
+    padding: 50px 0px;
+    color: #555555;
+}
+.contact p{
+    color: #777777;
+}
+.contact i{
+    padding: 15px;
+    color: #0dbf9b;
+}
+.contact .location{
+    float: left;
+    width: 33.3%;
+}
+.contact .email{
+    float: left;
+    width: 33.3%;
+}
+.contact .call{
+    float: left;
+    width: 33.3%;
+}
+/* end-contact */
+/* footer */
+.footer{
+    background: #0dbf9b;
+  
+}
+.footer ul li{
+    display: inline-block;
+    color: #fff;
+    padding: 17px;
+    font-size: 15px;
+}
+.copy{
+    background: #000;
+    color: rgb(71, 71, 71);
+    padding: 10px;
+    font-size: 10px;
+}
